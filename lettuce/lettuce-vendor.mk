@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/yu/lettuce/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/yu/lettuce/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/yu/lettuce/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/yu/lettuce/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/yu/lettuce/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/yu/lettuce/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
