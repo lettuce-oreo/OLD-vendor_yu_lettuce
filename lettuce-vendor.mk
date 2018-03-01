@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/yu/lettuce/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/yu/lettuce/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/yu/lettuce/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/yu/lettuce/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/yu/lettuce/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/yu/lettuce/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -48,6 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/yu/lettuce/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
+    vendor/yu/lettuce/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/yu/lettuce/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/yu/lettuce/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
@@ -188,6 +191,29 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/yu/lettuce/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/yu/lettuce/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/yu/lettuce/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -289,6 +315,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/yu/lettuce/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
@@ -315,4 +342,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
+    rcsimssettings \
+    rcsservice \
     vendor.qti.hardware.fm@1.0
