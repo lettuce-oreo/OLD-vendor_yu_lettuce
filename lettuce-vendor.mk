@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/yu/lettuce/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/yu/lettuce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/yu/lettuce/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
