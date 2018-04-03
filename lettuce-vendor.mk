@@ -354,7 +354,6 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libqmiservices \
     libtime_genoff \
-    libwpa_qmi_eap_proxy \
     qcnvitems \
     qcrilhook \
     qcrilmsgtunnel \
