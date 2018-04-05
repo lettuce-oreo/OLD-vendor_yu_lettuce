@@ -52,15 +52,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/yu/lettuce/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
-    vendor/yu/lettuce/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/yu/lettuce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/yu/lettuce/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/yu/lettuce/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/yu/lettuce/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/yu/lettuce/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/yu/lettuce/proprietary/vendor/lib/librilqmiservices.so:system/vendor/lib/librilqmiservices.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/yu/lettuce/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/yu/lettuce/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/lettuce/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -133,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_sunny_snapshot.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_sunny_video_hd.so:system/vendor/lib/libchromatix_ov8865_q8v18a_sunny_video_hd.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_sunny_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_sunny_zsl.so \
-    vendor/yu/lettuce/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -260,7 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -294,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
@@ -305,7 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
@@ -341,8 +330,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 
 PRODUCT_PACKAGES += \
-    colorservice \
-    fastdormancy \
     ims \
     imssettings \
     imscmlibrary \
@@ -354,12 +341,12 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libqmiservices \
     libtime_genoff \
+    TimeService \
+    colorservice \
+    shutdownlistener \
+    qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
-    qcrilmsgtunnel \
-    QtiTelephonyService \
     rcsimssettings \
     rcsservice \
-    shutdownlistener \
-    TimeService \
     vendor.qti.hardware.fm@1.0
