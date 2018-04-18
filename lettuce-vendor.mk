@@ -307,7 +307,6 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libloc_api_v02 \
     libloc_ds_api \
-    libwpa_qmi_eap_proxy \
     libtime_genoff \
     TimeService \
     colorservice \
